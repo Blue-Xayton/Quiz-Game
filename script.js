@@ -20,7 +20,7 @@ const quizQuestions = [
     answers: [
       { text: "//", correct: false },
       { text: "<!-- -->", correct: false },
-      { text: "#", correct: true },
+      { text: "#", correct: false },
       { text: "/* */", correct: false },
     ],
   },
@@ -208,3 +208,4 @@ function restartQuiz() {
   startQuiz();
 
 }
+
