@@ -15,15 +15,7 @@ const restartButton = document.getElementById("restart-btn");
 const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
-  {
-    question: "What symbol is used to make a comment in Python?",
-    answers: [
-      { text: "//", correct: false },
-      { text: "<!-- -->", correct: false },
-      { text: "#", correct: true },
-      { text: "/* */", correct: false },
-    ],
-  },
+ 
   {
     question: "What is the purpose of Git?",
     answers: [
@@ -33,6 +25,17 @@ const quizQuestions = [
       { text: "Writing Documentation", correct: false },
     ],
   },
+   {
+    question: "What symbol is used to make a comment in Python?",
+    answers: [
+      { text: "//", correct: false },
+      { text: "<!-- -->", correct: false },
+      { text: "#", correct: true },
+      { text: "/* */", correct: false },
+    ],
+  },
+
+  
   {
     question: "Which of the following is used to repeat a block of code?",
     answers: [
@@ -208,6 +211,7 @@ function restartQuiz() {
   startQuiz();
 
 }
+
 
 
 
